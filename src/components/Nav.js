@@ -44,7 +44,7 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   left: 0;
-  box-shadow: 0 1px 1px #5e5e5e;
+  border-bottom: 1.5px solid #5e5e5e;
   background: #1d1f22;
   z-index: 10;
   h1 {
