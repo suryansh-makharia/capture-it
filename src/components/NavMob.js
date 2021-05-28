@@ -41,7 +41,10 @@ const Nav = styled(motion.div)`
     width: 50%;
     margin-left: 26%
   }
-  @media (max-width: 760px) {
-    width: 47%;
+  @media (max-width: 768px) {
+    width: 45%;
+  }
+  @media (max-width: 550px){
+    width: 60%;
   }
 `;
