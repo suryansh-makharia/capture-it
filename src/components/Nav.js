@@ -122,7 +122,7 @@ const StyledNav = styled.nav`
   }
   @media (max-width: 650px){
     h1 {
-      margin-left: 1rem;
+      margin-left: 2rem;
     }
   }
 `;
