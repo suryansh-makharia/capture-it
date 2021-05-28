@@ -74,12 +74,20 @@ const Contact = styled(motion.div)`
   min-height: 80vh;
   overflow-y: hidden;
   position: relative;
+  @media (max-width: 760px) {
+    margin: 0 4rem;
+  }
 `;
 const Title = styled.div`
   margin: 4rem 0 2rem 0;
   color: white;
   h2 {
     font-size: 3.1rem;
+  }
+  @media (max-width: 760px) {
+    h2 {
+    font-size: 2.5rem;
+    }
   }
 `;
 const Hide = styled.div`
@@ -90,6 +98,9 @@ const Circle = styled.div`
   height: 1rem;
   border-radius: 50%;
   background: #ededed;
+  @media (max-width: 650px) {
+    width: 1.5rem;
+  }
 `;
 const Social = styled(motion.div)`
   display: flex;
@@ -101,6 +112,15 @@ const Social = styled(motion.div)`
   a {
     color: #23d997;
     font-size: 2.2rem;
+  }
+  @media (max-width: 760px) {
+    h2 {
+    font-size: 1.9rem;
+    margin: 1rem;
+    }
+    a {
+      font-size: 1.7rem;
+    }
   }
 `;
 const SocialLinks = styled.div`

@@ -40,7 +40,7 @@ export const Image = styled.div`
     margin-left: 0;
     img {
       width: 90%;
-      height: 80vh;
+      height: 70vh;
     }
   }
 `;

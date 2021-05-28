@@ -36,6 +36,15 @@ const About = styled(motion.div)`
   p {
     font-size: 2rem;
   }
+  @media (max-width: 760px) {
+    margin: 5rem 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
 `;
 const Frame1 = styled(motion.div)`
   height: 100vh;
