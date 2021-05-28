@@ -10,11 +10,12 @@ export const Home = styled(motion.div)`
     display: block;
     text-align: center;
     padding-bottom: 2rem;
+    margin: 0;
   }
 `;
 export const Description = styled.div`
   flex: 1;
-  margin: 5rem;
+  margin: 4rem;
   z-index: 2;
   h2 {
     font-weight: lighter;
