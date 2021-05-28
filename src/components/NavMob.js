@@ -42,7 +42,7 @@ const Nav = styled(motion.div)`
         font-size: 2rem;
         text-align: center;
         color: white;
-        z-index: 1;
+        z-index: 5;
     }
     @media (max-width: 760px){
       width: 40%;
