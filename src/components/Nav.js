@@ -16,6 +16,7 @@ export default function Nav() {
           Home
         </Link>
       </h1>
+      {clear && <NavMob />}
       <ul>
         <li>
           <Link to="/about">About Us</Link>
@@ -30,7 +31,6 @@ export default function Nav() {
       <button onClick={onBurgerClick} className="burger">
         <FontAwesomeIcon icon={clear ? faTimes : faBars} />
       </button>
-      {clear && <NavMob />}
     </StyledNav>
   );
 }
