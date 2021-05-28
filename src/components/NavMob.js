@@ -7,11 +7,11 @@ export default function NavMob() {
   return (
     <Nav variants={burgerAnim} initial="hidden" animate="show">
       <div className="links">
-      <Link to="/about">About Us</Link>
+      <Link className="link" to="/about">About Us</Link>
 
-      <Link to="/work">Our Work</Link>
+      <Link className="link" to="/work">Our Work</Link>
 
-      <Link to="/contact">Get in Touch</Link>
+      <Link className="link" to="/contact">Get in Touch</Link>
       </div>
     </Nav>
   );
@@ -32,12 +32,12 @@ const Nav = styled(motion.div)`
     justify-content: space-between;
     height: 30%;
   }
-  a {
+  .link {
     text-align: center;
     font-size: 2rem;
     color: white;
   }
-  a:after {
+  .link:after {
     width: 50%;
     margin-left: 26%
   }
