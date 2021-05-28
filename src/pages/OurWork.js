@@ -90,6 +90,9 @@ const Hide = styled.div`
   img:hover {
     opacity: 0.5;
   }
+  @media (max-width: 768px){
+    height: 70vh;
+  }
 `;
 const Frame1 = styled(motion.div)`
   height: 100vh;

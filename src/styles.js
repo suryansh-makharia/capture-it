@@ -41,8 +41,11 @@ export const Image = styled.div`
     margin-left: 0;
     img {
       width: 90%;
-      height: 70vh;
+      height: 80vh;
     }
+  }
+  @media (max-width: 768px){
+    height: 60vh;
   }
 `;
 export const Hide = styled.div`
