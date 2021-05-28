@@ -102,6 +102,9 @@ const StyledNav = styled.nav`
     display: none;
   }
   @media (max-width: 1000px) {
+    h1 {
+      margin-left: 4rem;
+    }
     ul {
       opacity: 0;
       pointer-events: none;
