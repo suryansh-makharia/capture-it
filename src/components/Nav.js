@@ -102,12 +102,9 @@ const StyledNav = styled.nav`
     display: none;
   }
   @media (max-width: 1000px) {
-    h1 {
-      text-align: center;
-    }
     ul {
-      width: 50%;
-      display: none;
+      opacity: 0;
+      pointer-events: none;
     }
     .burger {
       opacity: 1;
@@ -116,7 +113,7 @@ const StyledNav = styled.nav`
       background: none;
       font-size: 2rem;
       margin-right: 4rem;
-      z-index: 10;
+      z-index: 1;
       display: block;
     }
   }

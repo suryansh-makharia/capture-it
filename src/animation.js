@@ -89,7 +89,7 @@ const aboutTitle = {
   },
 };
 const burgerAnim = {
-  hidden: { x: "150%" },
+  hidden: { x: "100%" },
   show: {
     x: "0%",
     transition: { duration: 0.5 },
