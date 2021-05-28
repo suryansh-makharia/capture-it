@@ -120,4 +120,9 @@ const StyledNav = styled.nav`
       display: block;
     }
   }
+  @media (max-width: 650px){
+    h1 {
+      margin-left: 1rem;
+    }
+  }
 `;
