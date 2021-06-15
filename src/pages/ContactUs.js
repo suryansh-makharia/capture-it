@@ -42,7 +42,7 @@ export default function ContactUs() {
       </div>
       <SocialLinks>
         <button className="github">
-          <a href="https://github.com/suryansh-makharia">
+          <a href="https://github.com/suryanshmak">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </button>
